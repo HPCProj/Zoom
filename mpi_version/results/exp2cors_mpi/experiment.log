@@ -1,0 +1,20 @@
+2026-11-03 21:09:21 | INFO     | Starting MPI Fractal Zoom Benchmark 'exp_mpi'
+2026-11-03 21:09:21 | INFO     | Configuration saved to config.json
+2026-11-03 21:09:22 | INFO     | Calculating baseline time for p=1...
+2026-11-03 21:09:49 | INFO     | Baseline Serial Execution Time: 25.4656s
+2026-11-03 21:11:09 | INFO     | [S1] p=1  | Median Time: 25.5629s | FPS: 2.35 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-03 21:12:02 | INFO     | [S1] p=2  | Median Time: 16.6405s | FPS: 3.61 | Speedup: 1.53x | Efficiency: 0.77
+2026-11-03 21:12:56 | INFO     | [S1] p=4  | Median Time: 15.6114s | FPS: 3.84 | Speedup: 1.63x | Efficiency: 0.41
+2026-11-03 21:13:55 | INFO     | [S1] p=8  | Median Time: 15.1958s | FPS: 3.95 | Speedup: 1.68x | Efficiency: 0.21
+2026-11-03 21:15:14 | INFO     | [S2] p=1  | Median Time: 25.5081s | FPS: 2.35 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-03 21:16:41 | INFO     | [S2] p=2  | Median Time: 27.9529s | FPS: 2.15 | Speedup: 0.91x | Efficiency: 0.46
+2026-11-03 21:17:36 | INFO     | [S2] p=4  | Median Time: 15.8070s | FPS: 3.80 | Speedup: 1.61x | Efficiency: 0.40
+2026-11-03 21:18:37 | INFO     | [S2] p=8  | Median Time: 16.1253s | FPS: 3.72 | Speedup: 1.58x | Efficiency: 0.20
+2026-11-03 21:19:56 | INFO     | [S3] p=1  | Median Time: 25.4572s | FPS: 2.36 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-03 21:20:44 | INFO     | [S3] p=2  | Median Time: 14.4829s | FPS: 4.14 | Speedup: 1.76x | Efficiency: 0.88
+2026-11-03 21:21:35 | INFO     | [S3] p=4  | Median Time: 14.6661s | FPS: 4.09 | Speedup: 1.74x | Efficiency: 0.43
+2026-11-03 21:22:36 | INFO     | [S3] p=8  | Median Time: 14.9167s | FPS: 4.02 | Speedup: 1.71x | Efficiency: 0.21
+2026-11-03 21:22:36 | INFO     | Results CSV stored at: results/exp_mpi/results.csv
+2026-11-03 21:22:37 | INFO     | Saved plots: speedup.png, fps_scaling.png, worker_load_balance.png
+2026-11-03 21:22:37 | INFO     | Fractal Zoom Movie generated at: results/exp_mpi/fractal_zoom.gif
+2026-11-03 21:22:37 | INFO     | Fractal MPI Experiment finished successfully.
