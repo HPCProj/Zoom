@@ -1,0 +1,20 @@
+2026-11-03 17:53:00 | INFO     | Starting Fractal Benchmark: 'exp_chabane' (640x360)
+2026-11-03 17:53:00 | INFO     | Performing Numba JIT compiler warm-up...
+2026-11-03 17:53:02 | INFO     | Numba warm-up complete. Active threading layer: omp
+2026-11-03 17:53:02 | INFO     | Configuration saved to config.json
+2026-11-03 17:53:02 | INFO     | Saved cost_per_tile_heatmap.png
+2026-11-03 17:53:02 | INFO     | Generating full 120-frame Zoom Movie (isolated from benchmarks)...
+2026-11-03 17:53:32 | INFO     | Zoom movie assembled at: results/exp_chabane/fractal_zoom.gif (Time: 29.92s)
+2026-11-03 17:53:32 | INFO     | Running Baseline (Version 0: Serial) over 10 benchmark frames...
+2026-11-03 17:53:34 | INFO     | [Baseline] Serial Time: 0.6635s | FPS: 15.07
+2026-11-03 17:53:38 | INFO     | p=1   | Static Rows: 0.6604s (1.00x) | Shuffled Tiles: 0.6735s (0.99x) | Correct: True
+2026-11-03 17:53:40 | INFO     | p=2   | Static Rows: 0.4040s (1.64x) | Shuffled Tiles: 0.3481s (1.91x) | Correct: True
+2026-11-03 17:53:42 | INFO     | p=4   | Static Rows: 0.2395s (2.77x) | Shuffled Tiles: 0.1822s (3.64x) | Correct: True
+2026-11-03 17:53:43 | INFO     | p=8   | Static Rows: 0.2302s (2.88x) | Shuffled Tiles: 0.2076s (3.20x) | Correct: True
+2026-11-03 17:53:45 | INFO     | p=16  | Static Rows: 0.3170s (2.09x) | Shuffled Tiles: 0.3104s (2.14x) | Correct: True
+2026-11-03 17:53:50 | INFO     | p=32  | Static Rows: 0.8169s (0.81x) | Shuffled Tiles: 0.8164s (0.81x) | Correct: True
+2026-11-03 17:54:00 | INFO     | p=64  | Static Rows: 1.6974s (0.39x) | Shuffled Tiles: 1.6081s (0.41x) | Correct: True
+2026-11-03 17:54:01 | INFO     | p=128 | Static Rows: 0.1988s (3.34x) | Shuffled Tiles: 0.1921s (3.45x) | Correct: True
+2026-11-03 17:54:01 | INFO     | Results CSV saved to: results/exp_chabane/results.csv
+2026-11-03 17:54:02 | INFO     | Plots generated: speedup.png, efficiency.png, fps_throughput.png, variant_comparison.png
+2026-11-03 17:54:02 | INFO     | Fractal Experiment finished successfully.
