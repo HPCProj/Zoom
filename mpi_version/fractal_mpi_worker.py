@@ -237,7 +237,7 @@ def main():
             import imageio.v2 as imageio
             import matplotlib.cm as cm
             colored_frames = []
-            cmap = cm.get_cmap("twilight_shifted")
+            cmap = cm._colormaps["twilight_shifted"]
             for frame_mat in frames_out:
                 normed = (frame_mat - frame_mat.min()) / max(1.0, (frame_mat.max() - frame_mat.min()))
                 rgb = (cmap(normed)[:, :, :3] * 255).astype(np.uint8)
