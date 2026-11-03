@@ -1,0 +1,6 @@
+numpy 
+numba 
+pandas 
+matplotlib 
+imageio
+mpi4py
