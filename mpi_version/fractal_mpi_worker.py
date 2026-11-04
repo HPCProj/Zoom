@@ -185,7 +185,7 @@ def main():
     parser.add_argument("--strategy", type=str, required=True, choices=["S1", "S2", "S3"])
     parser.add_argument("--width", type=int, default=640)
     parser.add_argument("--height", type=int, default=360)
-    parser.add_argument("--frames", type=int, default=60)
+    parser.add_argument("--frames", type=int, default=500)
     parser.add_argument("--tile_size", type=int, default=40)
     parser.add_argument("--save_movie", action="store_true")
     parser.add_argument("--warmup", action="store_true")

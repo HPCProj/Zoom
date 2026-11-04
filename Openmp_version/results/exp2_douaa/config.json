@@ -1,0 +1,40 @@
+{
+    "experiment_name": "exp2_douaa",
+    "timestamp": "2026-11-04T00:14:33.053448",
+    "dimensions": {
+        "width": 640,
+        "height": 360
+    },
+    "frames": {
+        "total_movie_frames": 150,
+        "benchmark_frames": 10
+    },
+    "tile_size": 20,
+    "zoom": {
+        "center": [
+            -0.7436,
+            0.1318
+        ],
+        "factor": 0.85,
+        "min_iter": 200,
+        "max_iter": 1000
+    },
+    "p_list": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+    ],
+    "run_repetition": 3,
+    "hardware": {
+        "logical_cores": 2,
+        "threading_layer": "omp",
+        "os": "Linux",
+        "python": "3.14.2"
+    }
+}

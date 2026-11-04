@@ -1,0 +1,21 @@
+2026-11-04 00:19:28 | INFO     | Starting Fractal Benchmark: 'exp3_douaa' (640x360)
+2026-11-04 00:19:28 | INFO     | Performing Numba JIT compiler warm-up...
+2026-11-04 00:19:29 | INFO     | Numba warm-up complete. Active threading layer: workqueue
+2026-11-04 00:19:29 | INFO     | Configuration saved to config.json
+2026-11-04 00:19:31 | INFO     | Saved cost_per_tile_heatmap.png
+2026-11-04 00:19:31 | INFO     | Generating full 150-frame Zoom Movie (isolated from benchmarks)...
+2026-11-04 00:20:55 | INFO     | Zoom movie assembled at: results/exp3_douaa/fractal_zoom.gif (Time: 84.15s)
+2026-11-04 00:20:55 | INFO     | Running Baseline (Version 0: Serial) over 10 benchmark frames...
+2026-11-04 00:20:57 | INFO     | [Baseline] Serial Time: 0.6169s | FPS: 16.21
+2026-11-04 00:21:00 | INFO     | p=1   | Static Rows: 0.6415s (0.96x) | Shuffled Tiles: 0.6311s (0.98x) | Correct: True
+2026-11-04 00:21:04 | INFO     | p=2   | Static Rows: 0.6471s (0.95x) | Shuffled Tiles: 0.4201s (1.47x) | Correct: True
+2026-11-04 00:21:06 | INFO     | p=4   | Static Rows: 0.4336s (1.42x) | Shuffled Tiles: 0.4101s (1.50x) | Correct: True
+2026-11-04 00:21:09 | INFO     | p=8   | Static Rows: 0.5335s (1.16x) | Shuffled Tiles: 0.3668s (1.68x) | Correct: True
+2026-11-04 00:21:11 | INFO     | p=16  | Static Rows: 0.3721s (1.66x) | Shuffled Tiles: 0.3943s (1.56x) | Correct: True
+2026-11-04 00:21:14 | INFO     | p=32  | Static Rows: 0.4473s (1.38x) | Shuffled Tiles: 0.5355s (1.15x) | Correct: True
+2026-11-04 00:21:16 | INFO     | p=64  | Static Rows: 0.3805s (1.62x) | Shuffled Tiles: 0.3838s (1.61x) | Correct: True
+2026-11-04 00:21:20 | INFO     | p=128 | Static Rows: 0.6938s (0.89x) | Shuffled Tiles: 0.4992s (1.24x) | Correct: True
+2026-11-04 00:21:22 | INFO     | p=256 | Static Rows: 0.3849s (1.60x) | Shuffled Tiles: 0.4176s (1.48x) | Correct: True
+2026-11-04 00:21:22 | INFO     | Results CSV saved to: results/exp3_douaa/results.csv
+2026-11-04 00:21:24 | INFO     | Plots generated: speedup.png, efficiency.png, fps_throughput.png, variant_comparison.png
+2026-11-04 00:21:24 | INFO     | Fractal Experiment finished successfully.

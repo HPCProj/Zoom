@@ -1,0 +1,32 @@
+2026-11-03 22:27:48 | INFO     | Starting MPI Fractal Zoom Benchmark 'exp2_douaa'
+2026-11-03 22:27:48 | INFO     | Configuration saved to config.json
+2026-11-03 22:27:50 | INFO     | Calculating baseline time for p=1...
+2026-11-03 22:28:44 | INFO     | Baseline Serial Execution Time: 52.9942s
+2026-11-03 22:33:13 | INFO     | [S1] p=1  | Median Time: 52.8326s | FPS: 9.46 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-03 22:35:58 | INFO     | [S1] p=2  | Median Time: 32.0195s | FPS: 15.62 | Speedup: 1.66x | Efficiency: 0.83
+2026-11-03 22:38:48 | INFO     | [S1] p=4  | Median Time: 31.8606s | FPS: 15.69 | Speedup: 1.66x | Efficiency: 0.42
+2026-11-03 22:41:47 | INFO     | [S1] p=8  | Median Time: 31.7148s | FPS: 15.77 | Speedup: 1.67x | Efficiency: 0.21
+2026-11-03 22:41:47 | WARNING  | Skipping S1 for p=16: Height 360 not divisible by 16.
+2026-11-03 22:41:47 | WARNING  | Skipping S1 for p=32: Height 360 not divisible by 32.
+2026-11-03 22:46:18 | INFO     | [S2] p=1  | Median Time: 53.0622s | FPS: 9.42 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-03 22:51:41 | INFO     | [S2] p=2  | Median Time: 63.0074s | FPS: 7.94 | Speedup: 0.84x | Efficiency: 0.42
+2026-11-03 22:54:52 | INFO     | [S2] p=4  | Median Time: 35.4951s | FPS: 14.09 | Speedup: 1.49x | Efficiency: 0.37
+2026-11-03 22:58:14 | INFO     | [S2] p=8  | Median Time: 36.3376s | FPS: 13.76 | Speedup: 1.46x | Efficiency: 0.18
+2026-11-03 23:02:00 | INFO     | [S2] p=16 | Median Time: 36.6056s | FPS: 13.66 | Speedup: 1.45x | Efficiency: 0.09
+2026-11-03 23:06:35 | INFO     | [S2] p=32 | Median Time: 38.4809s | FPS: 12.99 | Speedup: 1.38x | Efficiency: 0.04
+2026-11-03 23:11:06 | INFO     | [S3] p=1  | Median Time: 53.3860s | FPS: 9.37 | Speedup: 0.99x | Efficiency: 0.99
+2026-11-03 23:13:48 | INFO     | [S3] p=2  | Median Time: 31.0209s | FPS: 16.12 | Speedup: 1.71x | Efficiency: 0.85
+2026-11-03 23:16:33 | INFO     | [S3] p=4  | Median Time: 30.8984s | FPS: 16.18 | Speedup: 1.72x | Efficiency: 0.43
+2026-11-03 23:19:28 | INFO     | [S3] p=8  | Median Time: 30.7297s | FPS: 16.27 | Speedup: 1.72x | Efficiency: 0.22
+2026-11-03 23:22:45 | INFO     | [S3] p=16 | Median Time: 31.1510s | FPS: 16.05 | Speedup: 1.70x | Efficiency: 0.11
+2026-11-03 23:23:45 | ERROR    | mpirun failed (S3, p=32): --------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node codespaces-87e27e exited on signal 15 (Terminated).
+--------------------------------------------------------------------------
+2026-11-03 23:27:48 | INFO     | [S3] p=32 | Median Time: 39.1572s | FPS: 13.03 | Speedup: 1.35x | Efficiency: 0.04
+2026-11-03 23:27:48 | INFO     | Results CSV stored at: results/exp2_douaa/results.csv
+2026-11-03 23:27:51 | INFO     | Saved plots: speedup.png, fps_scaling.png, worker_load_balance.png
+2026-11-03 23:27:51 | INFO     | Fractal MPI Experiment finished successfully.
