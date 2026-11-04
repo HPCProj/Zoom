@@ -1,0 +1,20 @@
+2026-11-03 21:37:55 | INFO     | Starting MPI Fractal Zoom Benchmark 'exp0_douaa'
+2026-11-03 21:37:55 | INFO     | Configuration saved to config.json
+2026-11-03 21:37:56 | INFO     | Calculating baseline time for p=1...
+2026-11-03 21:38:23 | INFO     | Baseline Serial Execution Time: 26.0624s
+2026-11-03 21:39:42 | INFO     | [S1] p=1  | Median Time: 25.3765s | FPS: 2.36 | Speedup: 1.03x | Efficiency: 1.03
+2026-11-03 21:40:35 | INFO     | [S1] p=2  | Median Time: 16.3176s | FPS: 3.68 | Speedup: 1.60x | Efficiency: 0.80
+2026-11-03 21:41:28 | INFO     | [S1] p=4  | Median Time: 15.9413s | FPS: 3.76 | Speedup: 1.63x | Efficiency: 0.41
+2026-11-03 21:42:27 | INFO     | [S1] p=8  | Median Time: 15.2300s | FPS: 3.94 | Speedup: 1.71x | Efficiency: 0.21
+2026-11-03 21:43:46 | INFO     | [S2] p=1  | Median Time: 25.4103s | FPS: 2.36 | Speedup: 1.03x | Efficiency: 1.03
+2026-11-03 21:45:12 | INFO     | [S2] p=2  | Median Time: 27.4508s | FPS: 2.19 | Speedup: 0.95x | Efficiency: 0.47
+2026-11-03 21:46:04 | INFO     | [S2] p=4  | Median Time: 15.4510s | FPS: 3.88 | Speedup: 1.69x | Efficiency: 0.42
+2026-11-03 21:47:03 | INFO     | [S2] p=8  | Median Time: 15.3809s | FPS: 3.90 | Speedup: 1.69x | Efficiency: 0.21
+2026-11-03 21:48:22 | INFO     | [S3] p=1  | Median Time: 25.2908s | FPS: 2.37 | Speedup: 1.03x | Efficiency: 1.03
+2026-11-03 21:49:09 | INFO     | [S3] p=2  | Median Time: 14.6665s | FPS: 4.09 | Speedup: 1.78x | Efficiency: 0.89
+2026-11-03 21:50:00 | INFO     | [S3] p=4  | Median Time: 14.6537s | FPS: 4.09 | Speedup: 1.78x | Efficiency: 0.44
+2026-11-03 21:50:59 | INFO     | [S3] p=8  | Median Time: 14.9667s | FPS: 4.01 | Speedup: 1.74x | Efficiency: 0.22
+2026-11-03 21:50:59 | INFO     | Results CSV stored at: results/exp0_douaa/results.csv
+2026-11-03 21:51:01 | INFO     | Saved plots: speedup.png, fps_scaling.png, worker_load_balance.png
+2026-11-03 21:51:01 | INFO     | Fractal Zoom Movie generated at: results/exp0_douaa/fractal_zoom.gif
+2026-11-03 21:51:01 | INFO     | Fractal MPI Experiment finished successfully.

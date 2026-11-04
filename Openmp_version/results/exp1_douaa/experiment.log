@@ -1,0 +1,20 @@
+2026-11-03 23:48:18 | INFO     | Starting Fractal Benchmark: 'exp1_douaa' (640x360)
+2026-11-03 23:48:18 | INFO     | Performing Numba JIT compiler warm-up...
+2026-11-03 23:48:20 | INFO     | Numba warm-up complete. Active threading layer: omp
+2026-11-03 23:48:20 | INFO     | Configuration saved to config.json
+2026-11-03 23:48:21 | INFO     | Saved cost_per_tile_heatmap.png
+2026-11-03 23:48:21 | INFO     | Generating full 1000-frame Zoom Movie (isolated from benchmarks)...
+2026-11-03 23:50:59 | INFO     | Zoom movie assembled at: results/exp1_douaa/fractal_zoom.gif (Time: 157.77s)
+2026-11-03 23:50:59 | INFO     | Running Baseline (Version 0: Serial) over 10 benchmark frames...
+2026-11-03 23:51:01 | INFO     | [Baseline] Serial Time: 0.8462s | FPS: 11.82
+2026-11-03 23:51:06 | INFO     | p=1   | Static Rows: 0.8384s (1.01x) | Shuffled Tiles: 0.8499s (1.00x) | Correct: True
+2026-11-03 23:51:09 | INFO     | p=2   | Static Rows: 0.5630s (1.50x) | Shuffled Tiles: 0.4893s (1.73x) | Correct: True
+2026-11-03 23:51:13 | INFO     | p=4   | Static Rows: 0.5065s (1.67x) | Shuffled Tiles: 0.4982s (1.70x) | Correct: True
+2026-11-03 23:51:15 | INFO     | p=8   | Static Rows: 0.4848s (1.75x) | Shuffled Tiles: 0.4894s (1.73x) | Correct: True
+2026-11-03 23:51:19 | INFO     | p=16  | Static Rows: 0.6519s (1.30x) | Shuffled Tiles: 0.4952s (1.71x) | Correct: True
+2026-11-03 23:51:22 | INFO     | p=32  | Static Rows: 0.4881s (1.73x) | Shuffled Tiles: 0.4956s (1.71x) | Correct: True
+2026-11-03 23:51:25 | INFO     | p=64  | Static Rows: 0.5285s (1.60x) | Shuffled Tiles: 0.4919s (1.72x) | Correct: True
+2026-11-03 23:51:28 | INFO     | p=128 | Static Rows: 0.5131s (1.65x) | Shuffled Tiles: 0.5202s (1.63x) | Correct: True
+2026-11-03 23:51:28 | INFO     | Results CSV saved to: results/exp1_douaa/results.csv
+2026-11-03 23:51:30 | INFO     | Plots generated: speedup.png, efficiency.png, fps_throughput.png, variant_comparison.png
+2026-11-03 23:51:30 | INFO     | Fractal Experiment finished successfully.
