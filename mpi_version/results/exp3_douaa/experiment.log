@@ -1,0 +1,20 @@
+2026-11-09 18:34:48 | INFO     | Starting MPI Fractal Zoom Benchmark 'exp3_douaa'
+2026-11-09 18:34:48 | INFO     | Configuration saved to config.json
+2026-11-09 18:34:49 | INFO     | Calculating baseline time for p=1...
+2026-11-09 18:35:15 | INFO     | Baseline Serial Execution Time: 24.7000s
+2026-11-09 18:37:22 | INFO     | [S1] p=1  | Median Time: 24.6266s | FPS: 6.09 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-09 18:38:36 | INFO     | [S1] p=2  | Median Time: 13.9010s | FPS: 10.79 | Speedup: 1.78x | Efficiency: 0.89
+2026-11-09 18:39:25 | INFO     | [S1] p=4  | Median Time: 8.4538s | FPS: 17.74 | Speedup: 2.92x | Efficiency: 0.73
+2026-11-09 18:40:19 | INFO     | [S1] p=8  | Median Time: 8.7165s | FPS: 17.21 | Speedup: 2.83x | Efficiency: 0.35
+2026-11-09 18:42:26 | INFO     | [S2] p=1  | Median Time: 24.4160s | FPS: 6.14 | Speedup: 1.01x | Efficiency: 1.01
+2026-11-09 18:44:39 | INFO     | [S2] p=2  | Median Time: 25.9105s | FPS: 5.79 | Speedup: 0.95x | Efficiency: 0.48
+2026-11-09 18:45:36 | INFO     | [S2] p=4  | Median Time: 9.9415s | FPS: 15.09 | Speedup: 2.48x | Efficiency: 0.62
+2026-11-09 18:46:32 | INFO     | [S2] p=8  | Median Time: 8.9721s | FPS: 16.72 | Speedup: 2.75x | Efficiency: 0.34
+2026-11-09 18:48:39 | INFO     | [S3] p=1  | Median Time: 24.5498s | FPS: 6.11 | Speedup: 1.01x | Efficiency: 1.01
+2026-11-09 18:49:45 | INFO     | [S3] p=2  | Median Time: 12.4014s | FPS: 12.10 | Speedup: 1.99x | Efficiency: 1.00
+2026-11-09 18:50:28 | INFO     | [S3] p=4  | Median Time: 7.1273s | FPS: 21.05 | Speedup: 3.47x | Efficiency: 0.87
+2026-11-09 18:51:21 | INFO     | [S3] p=8  | Median Time: 7.5593s | FPS: 19.84 | Speedup: 3.27x | Efficiency: 0.41
+2026-11-09 18:51:21 | INFO     | Results CSV stored at: results/exp3_douaa/results.csv
+2026-11-09 18:51:23 | INFO     | Saved plots: speedup.png, fps_scaling.png, worker_load_balance.png
+2026-11-09 18:51:23 | INFO     | Fractal Zoom Movie generated at: results/exp3_douaa/fractal_zoom.gif
+2026-11-09 18:51:23 | INFO     | Fractal MPI Experiment finished successfully.
