@@ -1,0 +1,16 @@
+2026-11-09 18:29:20 | INFO     | Starting Fractal Benchmark: 'exp4_douaa' (640x360)
+2026-11-09 18:29:20 | INFO     | Performing Numba JIT compiler warm-up...
+2026-11-09 18:29:22 | INFO     | Numba warm-up complete. Active threading layer: omp
+2026-11-09 18:29:22 | INFO     | Configuration saved to config.json
+2026-11-09 18:29:22 | INFO     | Saved cost_per_tile_heatmap.png
+2026-11-09 18:29:22 | INFO     | Generating full 150-frame Zoom Movie (isolated from benchmarks)...
+2026-11-09 18:29:58 | INFO     | Zoom movie assembled at: results/exp4_douaa/fractal_zoom.gif (Time: 35.89s)
+2026-11-09 18:29:58 | INFO     | Running Baseline (Version 0: Serial) over 10 benchmark frames...
+2026-11-09 18:30:00 | INFO     | [Baseline] Serial Time: 0.7306s | FPS: 13.69
+2026-11-09 18:30:05 | INFO     | p=1   | Static Rows: 0.7480s (0.98x) | Shuffled Tiles: 0.7427s (0.98x) | Correct: True
+2026-11-09 18:30:07 | INFO     | p=2   | Static Rows: 0.4460s (1.64x) | Shuffled Tiles: 0.3978s (1.84x) | Correct: True
+2026-11-09 18:30:09 | INFO     | p=4   | Static Rows: 0.2934s (2.49x) | Shuffled Tiles: 0.2414s (3.03x) | Correct: True
+2026-11-09 18:30:11 | INFO     | p=8   | Static Rows: 0.2407s (3.04x) | Shuffled Tiles: 0.2557s (2.86x) | Correct: True
+2026-11-09 18:30:11 | INFO     | Results CSV saved to: results/exp4_douaa/results.csv
+2026-11-09 18:30:12 | INFO     | Plots generated: speedup.png, efficiency.png, fps_throughput.png, variant_comparison.png
+2026-11-09 18:30:12 | INFO     | Fractal Experiment finished successfully.
