@@ -1,0 +1,19 @@
+{
+    "experiment_name": "exp_douaa",
+    "width": 640,
+    "height": 360,
+    "frames": 150,
+    "p_list": [
+        1,
+        2,
+        4,
+        8
+    ],
+    "tile_size": 40,
+    "run_repetition": 5,
+    "system": {
+        "os": "Linux",
+        "cpu_cores": 48,
+        "python": "3.12.16"
+    }
+}

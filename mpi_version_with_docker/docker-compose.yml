@@ -1,0 +1,30 @@
+services:
+  master:
+    build: .
+    container_name: docker-master
+    hostname: docker-master
+    volumes:
+      - ./code:/home/mpiuser/code
+      - ./ssh:/ssh:ro
+    networks:
+      mpi_bridge:
+        ipv4_address: 172.28.0.11
+
+  slave1:
+    build: .
+    container_name: docker-slave1
+    hostname: docker-slave1
+    volumes:
+      - ./code:/home/mpiuser/code
+      - ./ssh:/ssh:ro
+    networks:
+      mpi_bridge:
+        ipv4_address: 172.28.0.12
+
+networks:
+  mpi_bridge:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/24
+          gateway: 172.28.0.1
