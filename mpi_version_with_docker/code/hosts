@@ -1,0 +1,3 @@
+docker-master slots=2
+docker-slave1 slots=2
+
