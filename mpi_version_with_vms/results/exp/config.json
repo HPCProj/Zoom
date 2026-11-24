@@ -1,0 +1,22 @@
+{
+    "experiment_name": "exp",
+    "width": 640,
+    "height": 360,
+    "frames": 150,
+    "p_list": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+    ],
+    "tile_size": 40,
+    "run_repetition": 5,
+    "system": {
+        "os": "Linux",
+        "cpu_cores": 2,
+        "python": "3.14.4"
+    }
+}

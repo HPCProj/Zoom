@@ -1,0 +1,29 @@
+2026-11-24 19:58:58 | INFO     | Starting MPI Fractal Zoom Benchmark 'exp'
+2026-11-24 19:58:58 | INFO     | Configuration saved to config.json
+2026-11-24 19:58:59 | INFO     | Calculating baseline time for p=1...
+2026-11-24 19:59:38 | INFO     | Baseline Serial Execution Time: 38.5492s
+2026-11-24 20:02:54 | INFO     | [S1] p=1  | Median Time: 38.5350s | FPS: 3.89 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-24 20:04:47 | INFO     | [S1] p=2  | Median Time: 21.8643s | FPS: 6.86 | Speedup: 1.76x | Efficiency: 0.88
+2026-11-24 20:05:53 | INFO     | [S1] p=4  | Median Time: 12.1003s | FPS: 12.40 | Speedup: 3.19x | Efficiency: 0.80
+2026-11-24 20:07:02 | INFO     | [S1] p=8  | Median Time: 11.9697s | FPS: 12.53 | Speedup: 3.22x | Efficiency: 0.40
+2026-11-24 20:07:02 | WARNING  | Skipping S1 for p=16: Height 360 not divisible by 16.
+2026-11-24 20:07:02 | WARNING  | Skipping S1 for p=32: Height 360 not divisible by 32.
+2026-11-24 20:07:02 | WARNING  | Skipping S1 for p=64: Height 360 not divisible by 64.
+2026-11-24 20:10:18 | INFO     | [S2] p=1  | Median Time: 38.6109s | FPS: 3.88 | Speedup: 1.00x | Efficiency: 1.00
+2026-11-24 20:13:48 | INFO     | [S2] p=2  | Median Time: 41.2768s | FPS: 3.63 | Speedup: 0.93x | Efficiency: 0.47
+2026-11-24 20:15:01 | INFO     | [S2] p=4  | Median Time: 13.5878s | FPS: 11.04 | Speedup: 2.84x | Efficiency: 0.71
+2026-11-24 20:16:23 | INFO     | [S2] p=8  | Median Time: 14.5520s | FPS: 10.31 | Speedup: 2.65x | Efficiency: 0.33
+2026-11-24 20:18:06 | INFO     | [S2] p=16 | Median Time: 17.1866s | FPS: 8.73 | Speedup: 2.24x | Efficiency: 0.14
+2026-11-24 20:20:24 | INFO     | [S2] p=32 | Median Time: 20.6161s | FPS: 7.28 | Speedup: 1.87x | Efficiency: 0.06
+2026-11-24 20:23:54 | INFO     | [S2] p=64 | Median Time: 27.6350s | FPS: 5.43 | Speedup: 1.39x | Efficiency: 0.02
+2026-11-24 20:27:11 | INFO     | [S3] p=1  | Median Time: 38.7775s | FPS: 3.87 | Speedup: 0.99x | Efficiency: 0.99
+2026-11-24 20:28:52 | INFO     | [S3] p=2  | Median Time: 19.5306s | FPS: 7.68 | Speedup: 1.97x | Efficiency: 0.99
+2026-11-24 20:29:49 | INFO     | [S3] p=4  | Median Time: 10.3874s | FPS: 14.44 | Speedup: 3.71x | Efficiency: 0.93
+2026-11-24 20:30:51 | INFO     | [S3] p=8  | Median Time: 10.5956s | FPS: 14.16 | Speedup: 3.64x | Efficiency: 0.45
+2026-11-24 20:32:04 | INFO     | [S3] p=16 | Median Time: 11.2252s | FPS: 13.36 | Speedup: 3.43x | Efficiency: 0.21
+2026-11-24 20:33:40 | INFO     | [S3] p=32 | Median Time: 12.2436s | FPS: 12.25 | Speedup: 3.15x | Efficiency: 0.10
+2026-11-24 20:36:22 | INFO     | [S3] p=64 | Median Time: 16.9417s | FPS: 8.85 | Speedup: 2.28x | Efficiency: 0.04
+2026-11-24 20:36:22 | INFO     | Results CSV stored at: results/exp/results.csv
+2026-11-24 20:36:24 | INFO     | Saved plots: speedup.png, fps_scaling.png, worker_load_balance.png
+2026-11-24 20:36:24 | INFO     | Fractal Zoom Movie generated at: results/exp/fractal_zoom.gif
+2026-11-24 20:36:24 | INFO     | Fractal MPI Experiment finished successfully.
